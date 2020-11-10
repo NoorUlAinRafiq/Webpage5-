@@ -12,28 +12,28 @@ body{
   position:fixed;
   z-index: -1;
 }
-@-webkit-keyframes animatecloud{
+@-webkit-keyframes animateCloud{
   0% {margin-left:-1000px;}
   100%{margin-left:100%;}
 }
 .x1{
--webkit-animation: animationcloud 40s linear infinite;
+-webkit-animation: animateCloud 40s linear infinite;
 -webkit-transform:scale(0.65);
 }
 .x2{
--webkit-animation: animationcloud 20s linear infinite;
+-webkit-animation: animateCloud 20s linear infinite;
 -webkit-transform:scale(0.3);
 }
 .x3{
--webkit-animation: animationcloud 30s linear infinite;
+-webkit-animation: animateCloud 30s linear infinite;
 -webkit-transform:scale(0.5);
 }
 .x4{
--webkit-animation: animationcloud 15s linear infinite;
+-webkit-animation: animateCloud 15s linear infinite;
 -webkit-transform:scale(0.4);
 }
 .x5{
--webkit-animation: animationcloud 25s linear infinite;
+-webkit-animation: animateCloud 25s linear infinite;
 -webkit-transform:scale(0.55);
 }
 .cloud{
